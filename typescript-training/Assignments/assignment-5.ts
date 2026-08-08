@@ -61,3 +61,7 @@ for(let i:number =0; i<rating.length; i++){
 
    console.log(`${employeeName[i]}: ${HikePercentagevalue}`);
 }
+
+for(const [name,hikePercentagevalue] of hikeMap){
+    console.log(`${name}'s Hike Percentage: ${hikePercentagevalue.toFixed(2)}%`);
+}
