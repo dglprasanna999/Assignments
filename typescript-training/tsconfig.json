@@ -5,6 +5,10 @@
     // "rootDir": "./src",
     // "outDir": "./dist",
 
+  // Adding module configurations to allow using ES Modules in Node.js
+  "noEmit": true,
+  "allowImportingTsExtensions": true,
+
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
     "module": "nodenext",
